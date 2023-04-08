@@ -1,0 +1,69 @@
+body{
+    background: rgb(18, 246, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px 2px rgba(0,0,0,0.2);
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 100;
+}
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px 2px rgba(0,0,0,0.2);
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 100;
+}
+.form{
+    border-radius: 12px;
+    padding: 24px;
+}
+button{
+    background-color:black;
+    border: none;
+    border-radius: 24px;
+    color: aliceblue;
+    cursor: pointer;
+    font-size:medium;
+    font-weight: bold;
+    margin: 12px;
+    padding: 16px;
+    text-align: center;
+}
+button:hover{
+    background-color: rgb(82, 112, 109);
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+.box input{
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    width: 50%;
+    font-size:14px ;
+}
+.box label{
+    font-size: larger;
+    font-weight: bold;
+}
+.record .student-card{
+    background-color: rgb(90, 131, 205);
+    border-radius: 24px;
+    padding: 16px;
+    text-align: center;
+    margin-top: 12px;
+}
